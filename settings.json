@@ -7,10 +7,26 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
+  "telemetry": {
+    "metrics": false
+  },
   "ui_font_size": 18,
   "buffer_font_size": 20,
   "theme": "MyeHealth Dark",
 
   "soft_wrap": "editor_width",
-  "formatter": "prettier"
+  "formatter": {
+    "external": {
+      "command": "prettier",
+      "arguments": ["--stdin-filepath", "{buffer_path}"]
+    }
+  },
+
+  "languages": {
+    "Python": {
+      "tab_size": 4,
+      "formatter": { "external": { "command": "black", "arguments": ["-"] } },
+      "format_on_save": "on"
+    }
+  }
 }
