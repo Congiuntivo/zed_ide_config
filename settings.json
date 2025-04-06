@@ -7,14 +7,22 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
+  "edit_predictions": {
+    "mode": "subtle",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_assistant": false
+  },
   "telemetry": {
     "metrics": false
   },
   "ui_font_size": 18,
   "buffer_font_size": 20,
   "theme": "MyeHealth Dark",
-
   "soft_wrap": "editor_width",
+
   "formatter": {
     "external": {
       "command": "prettier",
