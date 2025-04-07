@@ -15,4 +15,4 @@ These are the external formatters I use to keep code clean and consistent:
 
 ## 🎨 Theme
 
-I'm using a custom-modified version of the [EyeHealth](https://github.com/jonathanhild/eyehealth) theme.
+I'm using a modified porting of the [EyeHealth](https://github.com/jonathanhild/eyehealth) theme.
